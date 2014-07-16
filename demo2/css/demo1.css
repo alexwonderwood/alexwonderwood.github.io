@@ -650,7 +650,9 @@ and (min-width : 1824px) {
 	#story-bing .text41 {
 		margin: 3em 0 0 0 !important;
 	}
-
+	#story-bing .work {
+		margin: 2em 0 0 0 !important;
+	}
 	#story-bing .work .row {
 
 		margin: 0 0 -3.5em  0 !important;
@@ -744,6 +746,40 @@ and (min-width : 1824px) {
 		margin: 0  0 0 3em !important;
 		z-index: 5 !important;
 	}
+
+	#story-five .text51 {
+		margin: 5em 0 0 0 !important;
+	}
+	#story-five .get .item .item-text p {
+		font: 0.8em 'MyriadProRegular' !important;
+		margin: -0.5em 0 0 0 !important;
+	}
+	#story-five .text52 {
+		width: 104% !important;
+		top: 33em !important;
+	}
+	#story-five .text52 p {
+		font: 2.9em 'HeliosCondBold' !important;
+	}
+	#zajavka5 {
+		width: 70% !important;
+		margin: 9em 0 0 6em !important;
+		top: 7em !important;
+	}
+	#zajavka5 input {
+		width: 70% !important;
+		background-size: 100% !important;
+		height: 9em !important;
+		margin: 0 auto !important;
+	}
+
+	.footerslide5 {
+		bottom: 1.2em !important;
+		width: 15% !important;
+		margin: 0 auto !important;
+		z-index: 5 !important;
+	}
+
 	#story-six .paket{
 		width: 109% !important;
 		margin: 1em 0 0 0 !important;
@@ -881,7 +917,53 @@ and (min-width : 1824px) {
 		z-index: 10;
 
 	}
-
+	#story-foo .text81 {
+		margin: 2em 0 0 0 !important;
+	}
+	#story-foo .text82 p {
+		font: 1.15em 'HeliosCondBold' !important;
+	}
+	#story-foo .arrowfoo {
+		margin: -2.5em 0 0 22em !important;
+	}
+	#story-foo .arrowfoo img {
+		width: 100% !important;
+	}
+	#story-foo .text83 {
+		margin: 1.5em 0 0 0 !important;
+	}
+	#story-foo .text84 {
+		margin: 1em 0 0 !important;
+		width: 110% !important;
+	}
+	#story-foo .text84 p {
+		font: 1.1em 'HeliosCondBold' !important;
+	}
+	#story-foo .text85 {
+		margin: 2.5em 0 0 0;
+	}
+	#story-foo .text86 p {
+		font: 1.4em 'HeliosCondBold' !important;
+	}
+	#story-foo #foomidlepart .column {
+		margin: 1em 0 0 0 !important;
+	}
+	#story-foo #foomidlepart .item-text1 p {
+		font: 1em 'MyriadProBold' !important;
+	}
+	#story-foo #foomidlepart .item-text2 p {
+		font: italic 0.8em 'MyriadProRegular' !important;
+	}
+	#story-foo #foomidlepart .socialnet {
+		width: 60% !important;
+		font-size: 1em !important;
+	}
+	#story-foo #foobottompart .copyr {
+		margin: 1.8em 10em 0 0 !important;
+	}
+	#story-foo #foobottompart .copyr p {
+		font: 12px Arial !important;
+	}
 
 }
 
@@ -2086,6 +2168,7 @@ strong{
 
 
 .simpslider{
+
 	width: 44%;
 	height: 44%;
 	background-size: cover;
