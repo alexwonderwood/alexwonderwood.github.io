@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'ArialNarrow';
+    src: url('ArialNarrow.eot?') format('eot'),
+    url('ArialNarrow.woff') format('woff'),
+    url('ArialNarrow.ttf')  format('truetype'),
+    url('ArialNarrow.svg#ArialNarrow') format('svg');
+}
+
+@font-face {
+    font-family: 'HeliosCondRegular';
+    src: url('helioscond.eot');
+    src: url('helioscond.eot') format('embedded-opentype'),
+    url('helioscond.woff') format('woff'),
+    url('helioscond.ttf') format('truetype'),
+    url('helioscond.svg#HeliosCondRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'HeliosCondBold';
+    src: url('helioscond-bold.eot');
+    src: url('helioscond-bold.eot') format('embedded-opentype'),
+    url('helioscond-bold.woff') format('woff'),
+    url('helioscond-bold.ttf') format('truetype'),
+    url('helioscond-bold.svg#HeliosCondBold') format('svg');
+}
+
+@font-face {
+    font-family: 'HeliosUltraCompressedRegular';
+    src: url('heliosultracompressed.eot');
+    src: url('heliosultracompressed.eot') format('embedded-opentype'),
+    url('heliosultracompressed.woff') format('woff'),
+    url('heliosultracompressed.ttf') format('truetype'),
+    url('heliosultracompressed.svg#HeliosUltraCompressedRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'MagistralCBold';
+    src: url('magistralc-bold.eot');
+    src: url('magistralc-bold.eot') format('embedded-opentype'),
+    url('magistralc-bold.woff') format('woff'),
+    url('magistralc-bold.ttf') format('truetype'),
+    url('magistralc-bold.svg#MagistralCBold') format('svg');
+}
+
+@font-face {
+    font-family: 'MyriadProBold';
+    src: url('myriadpro-bold.eot');
+    src: url('myriadpro-bold.eot') format('embedded-opentype'),
+    url('myriadpro-bold.woff') format('woff'),
+    url('myriadpro-bold.ttf') format('truetype'),
+    url('myriadpro-bold.svg#MyriadProBold') format('svg');
+}
+
+@font-face {
+    font-family: 'MyriadProRegular';
+    src: url('myriadpro-regular.eot');
+    src: url('myriadpro-regular.eot') format('embedded-opentype'),
+    url('myriadpro-regular.woff') format('woff'),
+    url('myriadpro-regular.ttf') format('truetype'),
+    url('myriadpro-regular.svg#MyriadProRegular') format('svg');
+}
