@@ -2624,4 +2624,39 @@ span.red{
 	width: 100%;
 	z-index: 0;
 }
-
+#captcha-block{
+	position: absolute;
+	z-index: 10;
+	bottom: -33px;
+}
+#captcha-block a{
+	float: left;
+}
+#captcha-block img{
+	float: left;
+}
+#captcha-block img.renew {
+	margin: 22px 14px 0 0;
+}
+#captcha-block a{
+font: 14px Arial;
+	color: #313a41;
+}
+#captcha-block a span{
+	font: 14px Arial;
+	color: #313a41;
+	margin: 18px 43px 0 0;
+	float: left;
+}
+#captcha-block b{
+	font: 14px Arial;
+	color: #313a41;
+	float: left;
+	margin: 17px 0 0 0;
+}
+#captcha-block input{
+width: 120px;
+	height: 25px;
+	border-radius: 5px;
+	margin: 17px 0 0 0;
+}

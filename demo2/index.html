@@ -95,6 +95,15 @@
 				</div>
 				<div class="lablemod"><span class="red"> *</span> - Заполнить обязательно</div>
 				<input class="feedback btn btn-block btn-success" name="send" type="button" value="Отправить заявку">
+				<div id="captcha-block">
+				<a href="#" onclick="
+                         document.getElementById('captcha').src='captcha/captcha.php?'+Math.random();
+                       document.getElementById('captcha-form').focus();"
+				       id="change-image"><img class="renew" src="images/pop-up/re.png" alt="" /><span>Плохо видно?<br> Обновите картинку</span></a>
+				<img src="captcha/captcha.php" id="captcha" />
+					<b>Введите символы<br> с картинки в это окно</b>
+				<input type="text" name="captcha" id="captcha-form" />
+				</div>
 			</form>
 		</div>
 		<div class="bottompopup"><img src="images/pop-up/bottom.png" alt="" /></div>

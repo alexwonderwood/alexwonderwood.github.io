@@ -1,6 +1,6 @@
 <?php
 /**
- * Script para la generación de CAPTCHAS
+ * Script para la generaciï¿½n de CAPTCHAS
  *
  * @author  Jose Rodriguez <jose.rodriguez@exec.cl>
  * @license GPLv3
@@ -77,10 +77,10 @@ $captcha->CreateImage();
 class SimpleCaptcha {
 
     /** Width of the image */
-    public $width  = 200;
+    public $width  = 124;
 
     /** Height of the image */
-    public $height = 70;
+    public $height = 25;
 
     /** Dictionary word file (empty for randnom text) */
     public $wordsFile = 'words/en.php';
@@ -113,9 +113,9 @@ class SimpleCaptcha {
 
     /** Foreground colors in RGB-array */
     public $colors = array(
-        array(27,78,181), // blue
+        //array(27,78,181), // blue
         array(22,163,35), // green
-        array(214,36,7),  // red
+       // array(214,36,7),  // red
     );
 
     /** Shadow color in RGB-array or null */
@@ -446,7 +446,7 @@ class SimpleCaptcha {
      * Reduce the image to the final size
      */
     protected function ReduceImage() {
-        // Reduzco el tamaño de la imagen
+        // Reduzco el tamaï¿½o de la imagen
         $imResampled = imagecreatetruecolor($this->width, $this->height);
         imagecopyresampled($imResampled, $this->im,
             0, 0, 0, 0,
