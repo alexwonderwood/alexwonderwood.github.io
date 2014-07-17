@@ -107,6 +107,18 @@ and (min-width : 1224px) {
 	#story-intel #text27 {
 		top:-1.2em;
 	}
+	#story-intel #imageright2 {
+		left: 39% !important;
+		top: 51% !important;
+	}
+
+	#story-intel #imageright2 img {
+
+	}
+	#story-intel #imagerightarrow2 {
+		left: 88% !important;
+		top: 58% !important;
+	}
 	#zajavka2 {
 		top: -1.2em !important;
 	}
@@ -348,6 +360,7 @@ and (min-width : 1224px) {
 	#story-seven img{
 		width: 100%;
 	}
+	
 	#slider-controls li.active {
 		margin: 0 0.2em !important;
 	}
@@ -514,7 +527,7 @@ and (min-width : 1824px) {
 
 
 	#story-intel #text21{
-		margin: 5.5em 0 0 0 !important;
+		margin: 4em 0 0 0 !important;
 	}
 	#story-intel #imageleft2 {
 		left: -34% !important;
@@ -852,27 +865,23 @@ and (min-width : 1824px) {
 	#story-seven .sliderfone .bushback{
 		margin: 5em 0 0 0 !important;
 	}
-	#story-seven .sliderfone .monitorfone {
-		bottom: 4.5em !important;
-		right: 5em !important;
+	#story-seven .monitorfone {
+
 	}
 
 	.simpslider{
-		margin: 2.4em 0 0 24.6em !important;
+
 	}
 	#slider-controls{
-		margin: -4.1em 0 0 -1.5em !important;
+
 	}
 
 	#slider-controls li{
-		margin: 0 0.15em !important;
-		z-index: 100 !important;
+
 		font: 0.9em 'HeliosCondBold'!important;
 	}
 
 	#story-seven .sliderfone .bushfront{
-		margin: 16em 0 0 36em !important;
-		z-index: 10 !important;
 
 	}
 
@@ -1536,8 +1545,8 @@ and (min-width : 1824px) {
 
 #story-intel #imageright2 {
 	position: absolute;
-	left: 39%;
-	top: 55%;
+	left: 16%;
+	top: 46%;
 }
 
 #story-intel #imageright2 img {
@@ -1554,8 +1563,8 @@ and (min-width : 1824px) {
 }
 #story-intel #imagerightarrow2 {
 	position: absolute;
-	left: 88%;
-	top: 62%;
+	left: 46%;
+	top: 53%;
 	z-index: 1;
 }
 
@@ -2150,6 +2159,11 @@ strong{
 	font: 0.85em 'HeliosCondBold';
 	color: #00025e;
 }
+#story-seven #slider-cover{
+	position: absolute;
+	right: 3em;
+	bottom: 4em;
+}
 #story-seven .sliderfone .text73{
 	width: 30%;
 	float: left;
@@ -2159,14 +2173,13 @@ strong{
 	float: right;
 	margin: 2em 0 0 0;
 }
-#story-seven .sliderfone .monitorfone {
+#story-seven #slider-cover .slider-cover .monitorfone{
 	position: absolute;
-	float: right;
+width: 40%;
 	z-index: 10;
-	width: 45%;
-	right: 63px;
-	bottom: 54px;
+
 }
+
 #story-seven .sliderfone{
 	width: 110%;
 }
@@ -2174,14 +2187,12 @@ strong{
 
 
 .simpslider{
-
-	width: 44%;
-	height: 44%;
-	background-size: cover;
+	width: 93%;
+	height: 100%;
 	overflow: hidden;
 	position: absolute;
-	z-index: 6;
-	margin: 0 0 0 17em;
+	z-index: 0;
+	margin: 1em 0 0 1em;
 }
 
 .simpslider .mover{
@@ -2226,9 +2237,8 @@ strong{
 }
 div#pre-slider {
 	position: absolute;
-	width: 40%;
-	right: 4.8em;
-	bottom: 6.5em;
+	right: 2em;
+	bottom: 4.5em;
 }
 
 #slider-controls li.active{
@@ -2238,13 +2248,17 @@ div#pre-slider {
 	padding: 0.7em;
 }
 #story-seven .sliderfone .bushfront{
-	width: 12%;
-	float: right;
-	margin: 9.5em 0 0 25em;
 	position: absolute;
 	z-index: 30;
+	right: 7em;
+	bottom: -5em;
 }
-
+#story-seven .sliderfone .lable-monitor{
+	position: absolute;
+	z-index: 30;
+	right: 3.9em;
+	bottom: 11em;
+}
 
 #story-seven .totalbottomseven{
 	position: relative;
