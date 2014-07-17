@@ -716,24 +716,30 @@ and (min-width : 1824px) {
 		margin: -1.2em 1.2em 0 1.7em !important;
 	}
 	#story-bing .work .item9{
-		margin: -1.95em 0.5em 0 2em !important;
+		position: relative;
+		right: 0.3em;
+		top: 0.2em;
 	}
 	#story-bing .work .item10{
-		margin: -2.4em 3.7em 0 5.4em !important;
+		position: relative;
+		right: 0.7em;
+		top: -0.3em;
 	}
 	#story-bing .work .item11{
-		margin: -2.7em 1.1em 0 2.2em !important;
+		position: relative;
+		right: 1.1em;
+		top: -0.7em;
 	}
 	#story-bing .work .row-img-key {
-		right: -2.5em !important;
+		right: 1.5em !important;
 	}
 	#story-bing .work .row-img-key img{
 		width: 94% !important;
 	}
 	#zajavka4 {
 		width: 50% !important;
-		top:3em !important;
-		margin: 0 0 0 15em !important;
+		top: 3em !important;
+		margin: 1.5em 0 0 15em !important;
 	}
 	#zajavka4 input {
 		background-size: 100% !important;
@@ -971,8 +977,8 @@ and (min-width : 1824px) {
  * ANIMATION *
  ***************/
 @-webkit-keyframes parashut {
-	0% { opacity: 0; -webkit-transform: translateY(-100%) scale(0.0); }
-	100% { opacity: 1; -webkit-transform: translateX(0px) scale(1.0); }
+	0% { opacity: 0; -webkit-transform: scale(0.0); }
+	100% { opacity: 1; -webkit-transform: scale(1.0); }
 }
 @-moz-keyframes parashut {
 	0% { opacity: 0; -moz-transform: translateY(-100%) scale(0.0) ; }
@@ -2615,15 +2621,15 @@ span.red{
 	color: #ea0202;
 }
 .box-modal input.feedback{
-	background : url('../images/pop-up/button.png') left center no-repeat;
+	background: url('../images/pop-up/button.png') left center no-repeat;
 	color: transparent;
 	border: none;
-	background-size: 100%;
 	cursor: pointer;
 	float: right;
-	margin: 3em 1em 0 0;
+	margin: 53px 0 0 0;
 	z-index: 2;
 	position: relative;
+	padding: 10px 82px 1px 0;
 }
 .box-modal .bottompopup{
 	bottom: 0;
@@ -2636,7 +2642,7 @@ span.red{
 #captcha-block{
 	position: absolute;
 	z-index: 10;
-	bottom: -33px;
+	bottom: -19px;
 }
 #captcha-block a{
 	float: left;
@@ -2645,27 +2651,30 @@ span.red{
 	float: left;
 }
 #captcha-block img.renew {
-	margin: 22px 14px 0 0;
+	margin: 26px 14px 0 0;
+}
+#captcha-block img.cimg {
+	margin: 24px 14px 0 0;
 }
 #captcha-block a{
 font: 14px Arial;
 	color: #313a41;
 }
 #captcha-block a span{
-	font: 14px Arial;
+	font: 14px/20px Arial;
 	color: #313a41;
 	margin: 18px 43px 0 0;
 	float: left;
 }
 #captcha-block b{
-	font: 14px Arial;
+	font: 14px/20px Arial;
 	color: #313a41;
 	float: left;
-	margin: 17px 0 0 0;
+	margin: 17px 0 0 29px;
 }
 #captcha-block input{
-width: 120px;
+	width: 120px;
 	height: 25px;
 	border-radius: 5px;
-	margin: 17px 0 0 0;
+	margin: 23px 0 0 12px;
 }

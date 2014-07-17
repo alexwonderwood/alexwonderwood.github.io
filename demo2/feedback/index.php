@@ -10,7 +10,7 @@ $form = array();
 $host = $_SERVER['HTTP_HOST'];
 $ref = $_SERVER['HTTP_REFERER'];
 
-$form['form-1'] = array(
+$form['feedback_form'] = array(
 	'fields' => array(
 		'name' => array(
 			'title' => 'Имя',
@@ -23,6 +23,15 @@ $form['form-1'] = array(
 				'preg' => 'Поле [ %1$s ] возможно содержит ошибку',
 				'minlength' => 'Минимальная длинна поля [ %1$s ] меньше допустимой - %2$s',
 				'maxlength' => 'Максимальная длинна поля [ %1$s ] превышает допустимую - %2$s',
+			)
+		),
+		'captcha' => array(
+			'title' => 'Капча',
+			'validate' => array(
+				'captcha' => true,
+			),
+			'messages' => array(
+				'captcha' => 'Капча не совпадает',
 			)
 		),
 		'tell' => array(
@@ -66,9 +75,9 @@ $form['form-1'] = array(
 		'title' => 'Здравствуйте',
 		'ajax' => true,
 		'validate' => true,
-		'from_email' => 'noreply@email.com',
+		'from_email' => 'alex@127.0.0.1',
 		'from_name' => 'noreply',
-		'to_email' => 'alexsandra.panina@gmail.com',
+		'to_email' => 'alex2@127.0.0.1',
 		'to_name' => 'noreply1, noreply2',
 		'geoip' => true,
 		'referer' => true,
@@ -83,9 +92,6 @@ $form['form-1'] = array(
 		'usepresuf' => false
 	)
 );
-
-
-
 
 if($act == 'cfg') {
 	$jsonBox['configs'] = ExportConfigs($form);
@@ -123,6 +129,7 @@ if(isset($form[$act])) {
 		if(isset($field['validate'])) {
 
 			$def = 'Поле с именем [ '.$name.' ] содержит ошибку.';
+
 			// -0-
 			if(isset($field['validate']['required']) &&
 				empty($rawdata)) {
@@ -149,6 +156,11 @@ if(isset($form[$act])) {
 				mb_strlen($rawdata) > $field['validate']['substr']) {
 				$rawdata = mb_substr($rawdata, 0, $field['validate']['substr']);
 			}
+			// -5-
+			if(isset($field['validate']['captcha']) && !check_captha($rawdata)) {
+				$error[$name] = isset($field['messages']['captcha']) ? $field['messages']['captcha'] : $def;
+			}
+
 
 
 			$outdata = htmlspecialchars($rawdata);
@@ -324,3 +336,8 @@ function tpl($vars) {
 	}
 }
 
+function check_captha($rawdata){
+	session_start();
+	if(strtolower($_SESSION['captcha']) == strtolower($rawdata)){return true;}
+	else {return false;}
+}
