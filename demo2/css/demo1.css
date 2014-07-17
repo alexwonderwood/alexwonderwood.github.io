@@ -2530,12 +2530,21 @@ ul#nav span {
 }
 #vk_groups{
 	position: absolute;
-	margin: 0 0 0 34.2em;
+	margin: -1.5em 0 0 34em;
+	z-index: 1;
 
 }
-#vk_groups .hend{
-	margin: -24.5em 0 0 -1em;
-	z-index:1	;
+.img-groups{
+	position: absolute;
+}
+.img-groups .ph{
+	position: absolute;
+	margin: -4.5em 0 0 33em;
+}
+.img-groups .hn {
+	position: relative;
+	margin: -3em 0 0 46.9em;
+	z-index: 2;
 }
 .modal-content-box legend{
 	font: 1.5em 'HeliosCondRegular';
