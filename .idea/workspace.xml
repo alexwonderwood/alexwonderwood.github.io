@@ -47,19 +47,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="demo1.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="demo1.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/demo2/css/demo1.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2554" column="21" selection-start="48957" selection-end="48957" vertical-scroll-proportion="0.0">
+            <state line="2616" column="19" selection-start="50138" selection-end="50138" vertical-scroll-proportion="0.58391607">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="parallax.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="parallax.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo2/Parallax/js/parallax.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="366" column="61" selection-start="9916" selection-end="9916" vertical-scroll-proportion="0.6773823">
+            <state line="366" column="61" selection-start="9916" selection-end="9916" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reset.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo2/Parallax/css/reset.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="74" column="87" selection-start="1058" selection-end="1058" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -97,7 +106,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/demo2/css/style.css" />
         <option value="$PROJECT_DIR$/demo2/contact.html" />
         <option value="$PROJECT_DIR$/demo2/.htaccess" />
         <option value="$PROJECT_DIR$/css/reset.css" />
@@ -110,9 +118,10 @@
         <option value="$PROJECT_DIR$/demo2/feedback/test.php" />
         <option value="$PROJECT_DIR$/demo2/captcha/captcha.php" />
         <option value="$PROJECT_DIR$/demo2/feedback/index.php" />
-        <option value="$PROJECT_DIR$/demo2/css/demo1.css" />
         <option value="$PROJECT_DIR$/demo2/index.html" />
         <option value="$PROJECT_DIR$/demo2/Parallax/js/parallax.js" />
+        <option value="$PROJECT_DIR$/demo2/Parallax/css/reset.css" />
+        <option value="$PROJECT_DIR$/demo2/css/demo1.css" />
       </list>
     </option>
   </component>
@@ -214,6 +223,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Parallax" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="parallax" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="alexwonder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Parallax" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -842,7 +873,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="1" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924107" sideWeight="0.49573106" order="7" side_tool="false" content_ui="tabs" />
@@ -925,11 +956,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/demo2/Parallax/js/simpslider-dev.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="52" selection-start="441" selection-end="444" vertical-scroll-proportion="-5.04" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demo2/feedback/test.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="0" selection-start="456" selection-end="456" vertical-scroll-proportion="0.2624703" />
@@ -1019,16 +1045,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo2/css/demo1.css">
+    <entry file="file://$PROJECT_DIR$/demo2/Parallax/js/parallax.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2554" column="21" selection-start="48957" selection-end="48957" vertical-scroll-proportion="0.0">
+        <state line="366" column="61" selection-start="9916" selection-end="9916" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo2/Parallax/js/parallax.js">
+    <entry file="file://$PROJECT_DIR$/demo2/Parallax/css/reset.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="366" column="61" selection-start="9916" selection-end="9916" vertical-scroll-proportion="0.6773823">
+        <state line="74" column="87" selection-start="1058" selection-end="1058" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo2/css/demo1.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2616" column="19" selection-start="50138" selection-end="50138" vertical-scroll-proportion="0.58391607">
           <folding />
         </state>
       </provider>

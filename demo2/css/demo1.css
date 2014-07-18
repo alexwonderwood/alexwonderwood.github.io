@@ -2593,21 +2593,28 @@ ul#nav span {
 }
 .box-modal .input-prepend input{
 	background-color: #f4f4f4;
-	border-radius: 5px;
+	border-radius: 4px;
 	float: right;
 	height: 28px;
 	width: 218px;
 	margin: -0.3em 1em 0 0;
+	border: solid 2px #b1b1b1;
+	box-shadow: inset 0 0 3px rgba(0,0,0,0.2);
 }
 .box-modal .input-prepend select{
+	background: url('../images/pop-up/arrow.png') right center no-repeat;
 	background-color: #f4f4f4;
-	border-radius: 5px;
+	border-radius: 4px;
 	float: right;
 	height: 30px;
 	width: 223px;
 	margin: -0.3em 1em 0 0;
 	color: #797775;
 	font: 14px Arial;
+	border: solid 2px #b1b1b1;
+	box-shadow: inset 0 0 3px rgba(0,0,0,0.2);
+	-webkit-appearance: none;
+	cursor: pointer;
 }
 .box-modal .input-prepend select option{
 	color: #000000;
@@ -2625,7 +2632,9 @@ ul#nav span {
 	float: right;
 	margin: 0 1em 0 0;
 	background-color: #f4f4f4;
-	border-radius: 5px;
+	border-radius: 4px;
+	border: solid 2px #b1b1b1;
+	box-shadow: inset 0 0 3px rgba(0,0,0,0.2);
 }
 .box-modal .lablemod{
 	float: left;
@@ -2668,7 +2677,10 @@ span.red{
 	margin: 26px 14px 0 0;
 }
 #captcha-block img.cimg {
-	margin: 24px 14px 0 0;
+	margin: 23px 14px 0 0;
+	border: solid 1px #4f5c67;
+	box-shadow: inset 0 0 3px rgba(0,0,0,0.4);
+	border-radius: 4px;
 }
 #captcha-block a{
 font: 14px Arial;
@@ -2689,6 +2701,8 @@ font: 14px Arial;
 #captcha-block input{
 	width: 120px;
 	height: 25px;
-	border-radius: 5px;
+	border-radius: 4px;
 	margin: 23px 0 0 12px;
+	border: solid 1px #4f5c67;
+	box-shadow: inset 0 0 3px rgba(0,0,0,0.4);
 }
