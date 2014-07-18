@@ -356,6 +356,16 @@ $(function(){
 				if (i === 6 || i === 7) {
 					$('.simpslider').click();
 				}
+				if (i === 7) {
+					VK.Widgets.Group("vk_groups", {mode: 0, width: "246", height: "305", color1: 'FFFFFF', color2: '2B587A', color3: '5B7FA6'}, 20003922);
+					(function(d, s, id) {
+						var js, fjs = d.getElementsByTagName(s)[0];
+						if (d.getElementById(id)) return;
+						js = d.createElement(s); js.id = id;
+						js.src = "http://connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v2.0";
+						fjs.parentNode.insertBefore(js, fjs);
+					}(document, 'script', 'facebook-jssdk'));
+				}
 				if( !oData.bVisible ){
 					$sec.appendTo( $content );
 					oData.bVisible = true;
