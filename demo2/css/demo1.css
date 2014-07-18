@@ -360,7 +360,7 @@ and (min-width : 1224px) {
 	#story-seven img{
 		width: 100%;
 	}
-	
+
 	#slider-controls li.active {
 		margin: 0 0.2em !important;
 	}
@@ -2175,7 +2175,7 @@ strong{
 }
 #story-seven #slider-cover .slider-cover .monitorfone{
 	position: absolute;
-width: 40%;
+	width: 40%;
 	z-index: 10;
 
 }
@@ -2601,6 +2601,7 @@ ul#nav span {
 	border: solid 2px #b1b1b1;
 	box-shadow: inset 0 0 3px rgba(0,0,0,0.2);
 }
+
 .box-modal .input-prepend select{
 	background: url('../images/pop-up/arrow.png') right center no-repeat;
 	background-color: #f4f4f4;
@@ -2614,7 +2615,20 @@ ul#nav span {
 	border: solid 2px #b1b1b1;
 	box-shadow: inset 0 0 3px rgba(0,0,0,0.2);
 	-webkit-appearance: none;
+	-moz-appearance: none;
+	-o-appearance: none;
+	appearance: none !important;
 	cursor: pointer;
+
+
+}
+
+/*@-moz-document url-prefix() {
+
+  .box-modal .input-prepend select { width: 110%; }
+}*/
+.box-modal .input-prepend select::-ms-expand {
+	display: none;
 }
 .box-modal .input-prepend select option{
 	color: #000000;
@@ -2674,7 +2688,8 @@ span.red{
 	float: left;
 }
 #captcha-block img.renew {
-	margin: 26px 14px 0 0;
+	margin: 24px 14px 0 0;
+
 }
 #captcha-block img.cimg {
 	margin: 23px 14px 0 0;
@@ -2683,7 +2698,7 @@ span.red{
 	border-radius: 4px;
 }
 #captcha-block a{
-font: 14px Arial;
+	font: 14px Arial;
 	color: #313a41;
 }
 #captcha-block a span{

@@ -1,20 +1,20 @@
 $(function(){
 	var      $window = $( window )
-	  ,        $body = $( 'body' )
-	  , $bodyAndHTML = $body.add( 'html' )
-	  ,     $content = $( '#content' )
-	  ,    $sections = $content.find( 'section' )
-	  ,    $scroller = $( '#mock-scroller' )
-	  ,  fScrPercent = 0
-	  ,   aAnimProps = [ 'opacity', 'left', 'top', 'width', 'height', 'background-position' ]
-	  ,        sHash = location.hash
-	  ,  bAllowAnims = !~location.href.indexOf( 'noanims' )
-	  ,  aAnimations = []
-	  ,    webkitCSS = document.body.style[ 'webkitTransform' ] !== undefined
-	  ,       mozCSS = document.body.style[ 'MozTransform'    ] !== undefined
-	  ,        msCSS = document.body.style[ 'msTransform'     ] !== undefined
-	  , iAnimTimeout, iWindowHeight, sLastHash, iMaxHeight, iWinScrTop, iLastScrTime, iScrTimeout, sWinSize, kinetics
-	  ;
+		,        $body = $( 'body' )
+		, $bodyAndHTML = $body.add( 'html' )
+		,     $content = $( '#content' )
+		,    $sections = $content.find( 'section' )
+		,    $scroller = $( '#mock-scroller' )
+		,  fScrPercent = 0
+		,   aAnimProps = [ 'opacity', 'left', 'top', 'width', 'height', 'background-position' ]
+		,        sHash = location.hash
+		,  bAllowAnims = !~location.href.indexOf( 'noanims' )
+		,  aAnimations = []
+		,    webkitCSS = document.body.style[ 'webkitTransform' ] !== undefined
+		,       mozCSS = document.body.style[ 'MozTransform'    ] !== undefined
+		,        msCSS = document.body.style[ 'msTransform'     ] !== undefined
+		, iAnimTimeout, iWindowHeight, sLastHash, iMaxHeight, iWinScrTop, iLastScrTime, iScrTimeout, sWinSize, kinetics
+		;
 
 	$('.simpslider').one("click", function (){
 		$(this).simpslider();
@@ -27,8 +27,8 @@ $(function(){
 
 		$sec.add( $sec.data( '$pNodes' ) ).each( function(){
 			var $this = $( this )
-			  , oData = $this.data()
-			  ;
+				, oData = $this.data()
+				;
 
 			oData.iPause    = 0 | $this.attr( 'anim-pause' );
 			oData.bDetached = !!~'1 true'.indexOf( $this.attr( 'anim-detached' ) );
@@ -44,9 +44,9 @@ $(function(){
 	// converts a unit string to px
 	function parseUnit( vVal, $node, sValFn ){
 		var  aVal = /(-?\d+)(.*)/.exec( vVal )
-		  , fUnit = parseFloat( aVal[ 1 ] )
-		  , sUnit = aVal[ 2 ]
-		  ;
+			, fUnit = parseFloat( aVal[ 1 ] )
+			, sUnit = aVal[ 2 ]
+			;
 
 		switch( sUnit ){
 			case '':
@@ -65,8 +65,8 @@ $(function(){
 	// reads all listed css properties from $node with sClass applied
 	function readCSSProps( $node, sClass ){
 		var oObj = {}
-		  , i, l, vPropVal, sProp
-		  ;
+			, i, l, vPropVal, sProp
+			;
 
 		$node.addClass( sClass ).removeAttr( 'style' );
 
@@ -131,7 +131,7 @@ $(function(){
 	// returns properties that differ between two objects
 	function propDiff( oProps1, oProps2 ){
 		var oDiff = {}
-		  , n, bProp;
+			, n, bProp;
 
 		for( n in oProps2 ){
 			if( !eq( oProps1[n], oProps2[n] ) ){
@@ -145,13 +145,13 @@ $(function(){
 	// given a node, top & stage, stores an animation for the node
 	function addDiffAnimation( $node, iTop, iStage, iAnimLength ){
 		var      stages = [ 'start', 'focus', 'to', 'end' ]
-		  , iStartStage = iStage - 1
-		  ,   sEndStage = stages[ iStage ]
-		  ,   oPropsEnd = readCSSProps( $node, sEndStage )
-		  ,       oData = $node.data()
-		  ,  bPreDefLen = !!iAnimLength
-		  , oPropDiff, n, iDiff
-		  ;
+			, iStartStage = iStage - 1
+			,   sEndStage = stages[ iStage ]
+			,   oPropsEnd = readCSSProps( $node, sEndStage )
+			,       oData = $node.data()
+			,  bPreDefLen = !!iAnimLength
+			, oPropDiff, n, iDiff
+			;
 
 		if( !iAnimLength ){ iAnimLength = 0; }
 
@@ -166,7 +166,7 @@ $(function(){
 		}
 
 		aAnimations.push( {
-			     $node : $node
+			$node : $node
 			,   oProps : oPropDiff
 			,     iTop : iTop
 			,  iBottom : iTop + iAnimLength
@@ -179,11 +179,11 @@ $(function(){
 	// window loaded or re-sized, re-calculate all dimensions
 	function measureAnimations(){
 		var         iTop = 0
-		  ,  iStartTimer = +new Date()
-		  , iLastSection = $sections.length - 1
-		  ,  iPageHeight = 0
-		  , oAnim, oData
-		  ;
+			,  iStartTimer = +new Date()
+			, iLastSection = $sections.length - 1
+			,  iPageHeight = 0
+			, oAnim, oData
+			;
 
 		aAnimations = window.aAnimations = [];
 		$scroller.css( 'height', 10000 );
@@ -191,12 +191,12 @@ $(function(){
 		// add animations for each section & .animate tag in each section
 		$sections.each( function( ix ){
 			var       $sec = $( this )
-			  ,      oData = $sec.data()
-			  ,    $pNodes = oData.$pNodes
-			  , iSecHeight = 0
-			  ,  iMaxPause = oData.iPause
-			  , i, l, iAnimSize, $pNode
-			  ;
+				,      oData = $sec.data()
+				,    $pNodes = oData.$pNodes
+				, iSecHeight = 0
+				,  iMaxPause = oData.iPause
+				, i, l, iAnimSize, $pNode
+				;
 
 			oData.startsAt = iTop;
 
@@ -214,7 +214,7 @@ $(function(){
 
 				if( bAllowAnims ){
 					iMaxPause = Math.max(
-						  iMaxPause
+						iMaxPause
 						,             addDiffAnimation( $pNode, iTop                                     , 1, iSecHeight )
 						, iAnimSize = addDiffAnimation( $pNode, iTop + iSecHeight + iMaxPause            , 2, iSecHeight )
 						,             addDiffAnimation( $pNode, iTop + iSecHeight + iMaxPause + iAnimSize, 3, iSecHeight )
@@ -298,9 +298,9 @@ $(function(){
 
 	function onScrollHandler(){
 		var   cDate = +new Date()
-		  , iScrTop = $window.scrollTop()
-		  ,   iDiff = cDate - iLastScrTime
-		  ;
+			, iScrTop = $window.scrollTop()
+			,   iDiff = cDate - iLastScrTime
+			;
 
 		iLastScrTime = cDate;
 		if( iScrTimeout ){
@@ -315,13 +315,13 @@ $(function(){
 
 			// stupid browser scrolling is too slow, fix it
 			var iLastTop = iWinScrTop
-			  , iScrDiff = iScrTop - iLastTop
-			  ;	
+				, iScrDiff = iScrTop - iLastTop
+				;
 
 			function nextScrollTick(){
 				var   now = +new Date()
-				  , iStep = ( now + 30 - cDate ) / iDiff;
-				
+					, iStep = ( now + 30 - cDate ) / iDiff;
+
 				if( iStep > 1 ){ iStep = 1; }
 
 				onScroll( iLastTop + iScrDiff * iStep )
@@ -336,9 +336,9 @@ $(function(){
 
 	function onScroll( iScrTop ){
 		var bChangedLoc = false
-		  , i, l, oAnim, $sec, oData
-		  , $node, sSecId, n, oCssProps, oProps, iCurScr, sState
-		  ;
+			, i, l, oAnim, $sec, oData
+			, $node, sSecId, n, oCssProps, oProps, iCurScr, sState
+			;
 
 		iScrTop || ( iScrTop = $window.scrollTop() );
 
@@ -400,7 +400,7 @@ $(function(){
 				}else{
 					continue;
 				}
-				
+
 			}else{
 				oAnim.lastState = 'enabled';
 			}
@@ -427,7 +427,7 @@ $(function(){
 
 			if( mozCSS || msCSS ){
 				props[ mozCSS ? 'MozTransform' : 'msTransform' ] = ( props.top ? 'translateY(' + props.top + 'px)' : '' ) + ( props.left ? 'translateX(' + props.left + 'px)' : '' );
-				
+
 				if( null != props.top  ){ props.top  = 0; }
 				if( null != props.left ){ props.left = 0; }
 			}
@@ -469,8 +469,8 @@ $(function(){
 
 	window.scrollToSection = function( sSec, immediate ){
 		var $sect = $sections.filter( '#story-' + sSec )
-		  , oData = $sect.data()
-		  ,   top = oData.iTop + ( $sections[0] === $sect[0] ? 0 : iWindowHeight + 1 );
+			, oData = $sect.data()
+			,   top = oData.iTop + ( $sections[0] === $sect[0] ? 0 : iWindowHeight + 1 );
 
 		if( immediate ){
 			$bodyAndHTML.scrollTop( top );
@@ -494,13 +494,13 @@ $(function(){
 
 
 	$window
-		/**
-		 * On resize:
-		 * 
-		 * - save window height for onscroll calculations
-		 * - re-calculate the height of all the <section> elements
-		 * - adjust top position so that it's at the same %, not same px
-		 **/
+	/**
+	 * On resize:
+	 *
+	 * - save window height for onscroll calculations
+	 * - re-calculate the height of all the <section> elements
+	 * - adjust top position so that it's at the same %, not same px
+	 **/
 		.bind( 'resize', function(){
 			// patch IE which keeps triggering resize events when elements are resized
 			var sCurWinSize = $window.width() + 'x' + $window.height();
