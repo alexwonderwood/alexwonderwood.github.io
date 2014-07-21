@@ -360,7 +360,14 @@ and (min-width : 1224px) {
 	#story-seven img{
 		width: 100%;
 	}
-
+	#story-seven #slider-cover {
+		right: 3em !important;
+		bottom: 3em !important;
+		width: 50%;
+	}
+	.simpslider {
+		margin: 0.75em 0 0 0.5em !important;
+	}
 	#slider-controls li.active {
 		margin: 0 0.2em !important;
 	}
@@ -862,6 +869,16 @@ and (min-width : 1824px) {
 	#story-seven .sliderfone .text73{
 		margin: 2em 0 0 0;
 	}
+	#story-seven #slider-cover {
+		right: 3em !important;
+		bottom: 4em !important;
+		width: 50%;
+	}
+	.simpslider {
+
+		margin: 1em 0 0 1em !important;
+	}
+
 	#story-seven .sliderfone .bushback{
 		margin: 5em 0 0 0 !important;
 	}
@@ -2188,7 +2205,7 @@ strong{
 
 .simpslider{
 	width: 93%;
-	height: 100%;
+	height: 64%;
 	overflow: hidden;
 	position: absolute;
 	z-index: 0;
@@ -2602,25 +2619,33 @@ ul#nav span {
 	box-shadow: inset 0 0 3px rgba(0,0,0,0.2);
 }
 
-.box-modal .input-prepend select{
-	background: url('../images/pop-up/arrow.png') right center no-repeat;
-	background-color: #f4f4f4;
+.box-modal .input-prepend .select-cover{
+	border: 2px solid #b1b1b1;
 	border-radius: 4px;
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.2) inset;
 	float: right;
-	height: 30px;
-	width: 223px;
-	margin: -0.3em 1em 0 0;
+	height: 27px;
+	overflow: hidden;
+	position: relative;
+	right: 16px;
+	top: -3px;
+	width: 220px;
+
+}
+.box-modal .input-prepend .select-cover select{
+	background: url("../images/pop-up/arrow.png") no-repeat scroll 189px center #f4f4f4;
 	color: #797775;
-	font: 14px Arial;
-	border: solid 2px #b1b1b1;
-	box-shadow: inset 0 0 3px rgba(0,0,0,0.2);
+	cursor: pointer;
+	float: left;
+	height: 36px;
+	margin: -0.3em 0 0;
+	width: 239px;
 	-webkit-appearance: none;
 	-moz-appearance: none;
 	-o-appearance: none;
 	appearance: none !important;
 	cursor: pointer;
-
-
+	font: 14px Arial;
 }
 
 /*@-moz-document url-prefix() {
@@ -2658,15 +2683,15 @@ span.red{
 	color: #ea0202;
 }
 .box-modal input.feedback{
-	background: url('../images/pop-up/button.png') left center no-repeat;
+	background: url("../images/pop-up/button.png") no-repeat scroll left center rgba(0, 0, 0, 0);
+	border: medium none;
 	color: transparent;
-	border: none;
 	cursor: pointer;
 	float: right;
-	margin: 53px 0 0 0;
-	z-index: 2;
-	position: relative;
+	margin: 45px 0 0;
 	padding: 10px 82px 1px 0;
+	position: relative;
+	z-index: 2;
 }
 .box-modal .bottompopup{
 	bottom: 0;
