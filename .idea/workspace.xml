@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="468a1d3b-d97c-461b-ab56-7129311c64fa" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo2/Parallax/js/parallax.js" afterPath="$PROJECT_DIR$/demo2/Parallax/js/parallax.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo2/css/demo1.css" afterPath="$PROJECT_DIR$/demo2/css/demo1.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo2/index.html" afterPath="$PROJECT_DIR$/demo2/index.html" />
     </list>
@@ -32,10 +33,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo2/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="638" column="8" selection-start="25718" selection-end="25718" vertical-scroll-proportion="0.575">
+            <state line="638" column="0" selection-start="25716" selection-end="25716" vertical-scroll-proportion="-11.5">
               <folding />
             </state>
           </provider>
@@ -53,16 +54,16 @@
       <file leaf-file-name="demo1.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo2/css/demo1.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2502" column="20" selection-start="48567" selection-end="48567" vertical-scroll-proportion="-14.4">
+            <state line="419" column="40" selection-start="9639" selection-end="9639" vertical-scroll-proportion="-9.96">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="parallax.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="parallax.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/demo2/Parallax/js/parallax.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="516" column="3" selection-start="13790" selection-end="13790" vertical-scroll-proportion="0.0">
+            <state line="381" column="76" selection-start="10696" selection-end="10696" vertical-scroll-proportion="0.72161174">
               <folding />
             </state>
           </provider>
@@ -121,10 +122,10 @@
         <option value="$PROJECT_DIR$/demo2/feedback/test.php" />
         <option value="$PROJECT_DIR$/demo2/captcha/captcha.php" />
         <option value="$PROJECT_DIR$/demo2/feedback/index.php" />
-        <option value="$PROJECT_DIR$/demo2/Parallax/js/parallax.js" />
         <option value="$PROJECT_DIR$/demo2/Parallax/css/reset.css" />
-        <option value="$PROJECT_DIR$/demo2/css/demo1.css" />
         <option value="$PROJECT_DIR$/demo2/index.html" />
+        <option value="$PROJECT_DIR$/demo2/Parallax/js/parallax.js" />
+        <option value="$PROJECT_DIR$/demo2/css/demo1.css" />
       </list>
     </option>
   </component>
@@ -353,7 +354,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/demo2/share42/share42.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="661" selection-start="704" selection-end="704" vertical-scroll-proportion="0.019813519" />
+        <state line="1" column="661" selection-start="704" selection-end="704" vertical-scroll-proportion="0.019813519">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demo2/captcha/captcha.php">
@@ -389,16 +394,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo2/Parallax/js/parallax.js">
+    <entry file="file://$PROJECT_DIR$/demo2/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="516" column="3" selection-start="13790" selection-end="13790" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo2/css/demo1.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2502" column="20" selection-start="48567" selection-end="48567" vertical-scroll-proportion="-14.4">
+        <state line="638" column="0" selection-start="25716" selection-end="25716" vertical-scroll-proportion="-11.5">
           <folding />
         </state>
       </provider>
@@ -410,9 +408,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo2/index.html">
+    <entry file="file://$PROJECT_DIR$/demo2/css/demo1.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="638" column="8" selection-start="25718" selection-end="25718" vertical-scroll-proportion="0.575">
+        <state line="419" column="40" selection-start="9639" selection-end="9639" vertical-scroll-proportion="-9.96">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo2/Parallax/js/parallax.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="381" column="76" selection-start="10696" selection-end="10696" vertical-scroll-proportion="0.72161174">
           <folding />
         </state>
       </provider>
