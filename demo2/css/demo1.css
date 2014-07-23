@@ -360,9 +360,6 @@ and (min-width : 1224px) {
 	#story-seven img{
 		width: 100%;
 	}
-    #story-seven .text72 {
-        margin: 0.5em 0 2em 0 !important;
-    }
 	#story-seven #slider-cover {
 		right: 3em !important;
 		bottom: 3em !important;
@@ -371,20 +368,9 @@ and (min-width : 1224px) {
 	.simpslider {
 		margin: 0.75em 0 0 0.5em !important;
 	}
-    div#pre-slider {
-        bottom: 3.25em !important;
-    }
 	#slider-controls li.active {
 		margin: 0 0.2em !important;
 	}
-    #story-seven .sliderfone .lable-monitor {
-        right: 3.8em !important;
-        bottom: 8em !important;
-    }
-    #story-seven .sliderfone .bushfront {
-        right: 4em !important;
-    }
-
 	#story-foo .story {
 		width: 50%;
 		padding-right: 0px;
@@ -407,26 +393,6 @@ and (min-width : 1224px) {
 		width: 80%;
 
 	}
-
-
-    .img-groups .ph {
-    margin: -3.5em 0 0 1em !important;
-        right: -35.3em;
-    }
-
-
-    .img-groups .hn {
-        left: 42.85em;
-        margin: -2.5em 0 0 0 !important;
-    }
-    .img-groups .ph img{
-     width: 69% !important;
-    }
-
-    .img-groups .hn img {
-    width: 69% !important;
-    }
-
 	#story-foo .text83{
 		margin: -0.5em 0 0 0 !important;
 	}
@@ -894,7 +860,7 @@ and (min-width : 1824px) {
 
 	#story-seven .text72{
 		width: 110% !important;
-		margin: 1em 0 0 0 !important;
+		margin: 1em 0 0 0;
 	}
 	#story-seven .text72 p{
 		font: 1.3em 'HeliosCondBold' !important;
@@ -912,19 +878,20 @@ and (min-width : 1824px) {
 
 		margin: 1em 0 0 1em !important;
 	}
-    div#pre-slider {
-        bottom: 4.5em !important;
-    }
-    #story-seven .sliderfone .bushfront {
-        right: 7em !important;
-    }
+
 	#story-seven .sliderfone .bushback{
 		margin: 5em 0 0 0 !important;
 	}
-    #story-seven .sliderfone .lable-monitor {
-        right: 3.9em !important;
-        bottom: 11em !important;
-    }
+	#story-seven .monitorfone {
+
+	}
+
+	.simpslider{
+
+	}
+	#slider-controls{
+
+	}
 
 	#slider-controls li{
 
@@ -994,18 +961,6 @@ and (min-width : 1824px) {
 	#story-foo .arrowfoo img {
 		width: 100% !important;
 	}
-    .img-groups .ph{
-        margin: -4.5em 0 0 33em !important;
-    }
-    .img-groups .hn {
-        margin: -3em 0 0 46.9em !important;
-    }
-    .img-groups .ph img{
-        width: 100% !important;
-    }
-    .img-groups .hn img{
-        width: 100% !important;
-    }
 	#story-foo .text83 {
 		margin: 1.5em 0 0 0 !important;
 	}
@@ -2520,10 +2475,6 @@ div#pre-slider {
 #story-foo #foomidlepart .socialnet span{
 	margin: 0 0 0 5em;
 }
-#story-foo #foomidlepart .socialnet span.innersocial{
-    margin: 0 3em 0 0;
-}
-
 #story-foo #foomidlepart .share42init{
 	float: left;
 	margin: -1.5em 0 0 46em;
@@ -2532,7 +2483,7 @@ div#pre-slider {
 }
 #story-foo #foomidlepart .fb-like{
 	float: left;
-	margin: 0 0 0 -8em;
+	margin: 0 0 0 -5em;
 	z-index: 10;
 	position: absolute;
 }
