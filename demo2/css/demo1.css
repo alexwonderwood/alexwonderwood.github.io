@@ -912,7 +912,7 @@ and (min-width : 1824px) {
 	#story-seven #slider-cover {
 		right: 3em !important;
 		bottom: 4em !important;
-		width: 50%;
+		width: 48%;
 	}
 	.simpslider {
 
@@ -1844,7 +1844,7 @@ strong{
 	float: left;
 	opacity:0;
 }
-#story-bing .work .row {
+/*#story-bing .work .row {
 	animation: fdsseq .5s forwards;
 	-webkit-animation: fdsseq .5s forwards;
 	-moz-animation: fdsseq .5s forwards;
@@ -1869,7 +1869,7 @@ strong{
 	-webkit-animation-delay: 2s;
 	-moz-animation-delay: 2s;
 }
-
+*/
 
 #story-bing .work .row .row-img-circle{
 	float: left;

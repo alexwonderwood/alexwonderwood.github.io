@@ -353,6 +353,13 @@ $(function(){
 			oData = $sec.data();
 
 			if( ( oData.iTop <= iScrTop ) && ( oData.iBottom >= ( iScrTop ) ) ){
+                if (i === 3){
+                    $(function() {
+                        $('#story-bing .work .row').each(function(i){
+                            $(this).delay((i++) * 500).fadeTo(1000, 1); })
+
+                    });
+                }
 				if (i === 6 || i === 7) {
 					$('.simpslider').click();
 				}
