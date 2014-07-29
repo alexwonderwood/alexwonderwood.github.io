@@ -353,6 +353,25 @@ $(function(){
 			oData = $sec.data();
 
 			if( ( oData.iTop <= iScrTop ) && ( oData.iBottom >= ( iScrTop ) ) ){
+                if (i === 1){
+                    $(function () {
+                        $("#story-header .parashut").fadeTo(2000,  0.4);
+
+                        /*$()
+                            .animate({ opacity: 1.0,
+                            width:"100%"}, 7000);*/
+                            // Then, make it semi-transparent
+
+
+                    }());
+                   $(function () {
+
+                        $("#story-header .glass img")
+                            .animate({ opacity: 1.0}, 9000); // Then, make it semi-transparent
+
+                    }());
+                }
+
                 if (i === 3){
                     $(function() {
                         $('#story-bing .work .row').each(function(i){
@@ -360,6 +379,14 @@ $(function(){
 
                     });
                 }
+                if (i === 4){
+                    $(function() {
+                        $('#story-five .get .item').each(function(i){
+                            $(this).delay((i++) * 500).fadeTo(1000, 1); })
+
+                    });
+                }
+
 				if (i === 6 || i === 7) {
 					$('.simpslider').click();
 				}
@@ -369,7 +396,7 @@ $(function(){
                     var globalTimer = null;
 
 
-                        if($(window).width() > '1824')
+                        if($(window).width() > '1400')
                         // при загрузке устанавливаем параметры по умолчанию
                         {VK.Widgets.Group("vk_groups", {mode: 0, width: "246", height: "305", color1: 'FFFFFF', color2: '2B587A', color3: '5B7FA6'}, 20003922);}
 
@@ -383,7 +410,7 @@ $(function(){
                     };
 
 
-                        if($(window).width() <= '1824')
+                        if($(window).width() <= '1400')
                         //заново инициализируем комментарии с новой шириной
                         //тут можно придумать зависимость ширины комментариев от ширины чего-нибудь и вставлять вместо 320 любую другую велечину
                         {VK.Widgets.Group("vk_groups", {mode: 0, width: "170", height: "100", color1: 'FFFFFF', color2: '2B587A', color3: '5B7FA6'}, 20003922);}
