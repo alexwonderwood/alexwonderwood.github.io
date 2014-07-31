@@ -52,7 +52,7 @@
       <file leaf-file-name="demo1.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/demo2/css/demo1.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="854" column="33" selection-start="19083" selection-end="19083" vertical-scroll-proportion="0.7161172">
+            <state line="1452" column="14" selection-start="30877" selection-end="30877" vertical-scroll-proportion="-1.6257198">
               <folding />
             </state>
           </provider>
@@ -235,7 +235,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="1" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924107" sideWeight="0.49573106" order="7" side_tool="false" content_ui="tabs" />
@@ -413,7 +413,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/demo2/css/demo1.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="854" column="33" selection-start="19083" selection-end="19083" vertical-scroll-proportion="0.7161172">
+        <state line="1452" column="14" selection-start="30877" selection-end="30877" vertical-scroll-proportion="-1.6257198">
           <folding />
         </state>
       </provider>
