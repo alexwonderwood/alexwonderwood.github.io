@@ -820,9 +820,13 @@ and (min-width : 1366px) {
         margin: 0 auto !important;
         z-index: 5 !important;
     }
+
+
+
     #story-seven .story {
         width: 45%;
         padding-right: 0px;
+        font-size: 100%;
     }
 
     #story-seven img{
@@ -837,21 +841,24 @@ and (min-width : 1366px) {
         width: 50%;
     }
     .simpslider {
-        margin: 0.75em 0 0 0.5em !important;
+        mmargin: 0.7em 0 0 0.7em !important;
     }
     div#pre-slider {
         bottom: 3.25em !important;
+        right: 2em !important;
     }
     #slider-controls li.active {
         margin: 0 0.2em !important;
     }
     #story-seven .sliderfone .lable-monitor {
         right: 3.8em !important;
-        bottom: 8em !important;
+        bottom: 8.5em !important;
     }
     #story-seven .sliderfone .bushfront {
         right: 4em !important;
     }
+
+
 
     #story-foo .story {
         width: 50%;
