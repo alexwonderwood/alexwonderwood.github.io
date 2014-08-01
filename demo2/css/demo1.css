@@ -1067,7 +1067,7 @@ and (min-width : 1920px) {
 	}
 
 	#story-intel #imageright2 {
-        left: 39% !important;
+        left: 49% !important;
         top: 51% !important;
 	}
 
@@ -1157,8 +1157,8 @@ and (min-width : 1920px) {
 	}
 
 	#story-william .meroprijat .item{
-		margin: -1em 0 3em 0.3em !important;
-        width: 24%;
+        margin: -1em 0 3em 0.3em !important;
+        width: 24% !important;
 	}
 	#story-william .meroprijat .item-text p{
 		font: 0.9em 'MyriadProRegular' !important;
@@ -1263,6 +1263,7 @@ and (min-width : 1920px) {
         z-index: 5 !important;
     }
 
+
     #story-five .story {
 
         font-size: 100%;
@@ -1335,8 +1336,8 @@ and (min-width : 1920px) {
 		width: 100%;
 	}
 	#story-six #img-money{
-		margin: 26em 0 0 12em !important;
-		width: 100%;
+        margin: 14em 0 0 2em !important;
+        width: 76%;
 	}
 
 	#zajavka6{
@@ -1394,7 +1395,6 @@ and (min-width : 1920px) {
 
 	#slider-controls li{
 
-		font: 0.9em 'HeliosCondBold'!important;
 	}
 
 	#story-seven .sliderfone .bushfront{
@@ -1458,7 +1458,7 @@ and (min-width : 1920px) {
 		margin: 2em 0 0 0 !important;
 	}
 	#story-foo .text82 p {
-		font: 1.15em 'HeliosCondBold' !important;
+
 	}
 	#story-foo .arrowfoo {
 		margin: -2.5em 0 0 22em !important;
@@ -1519,7 +1519,7 @@ and (min-width : 1920px) {
 		margin: 1.8em 10em 0 0 !important;
 	}
 	#story-foo #foobottompart .copyr p {
-		font: 12px Arial !important;
+
 	}
 
 }
