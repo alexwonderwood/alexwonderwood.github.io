@@ -1021,11 +1021,11 @@ and (min-width : 1920px) {
 	}
 
 	#story-header .glass {
-		top: 565% !important;
+		top: 567% !important;
 	}
 
 	#story-header .glass img {
-		left: 84% !important;
+		left: 93% !important;
 		width: 120% !important;
 	}
 	#story-header .parashut {
@@ -1450,7 +1450,7 @@ and (min-width : 1920px) {
 
     #story-foo .story {
 
-        font-size: 100%;
+        font-size: 130%;
     }
 	#story-foo .text81 {
 		margin: 2em 0 0 0 !important;
@@ -1493,7 +1493,9 @@ and (min-width : 1920px) {
 	#story-foo .text85 {
 		margin: 2.5em 0 0 0;
 	}
-
+    #story-foo #footoppart {
+        font-size: 120%;
+    }
 	#story-foo #foomidlepart .column {
 		margin: 1em 0 0 0 !important;
 	}
