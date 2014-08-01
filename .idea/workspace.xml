@@ -34,10 +34,8 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo2/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="621" column="0" selection-start="25026" selection-end="25026" vertical-scroll-proportion="-6.6153846">
-              <folding>
-                <element signature="tag#div#0;tag#section#7;tag#div#3;tag#body#0;tag#html#0" expanded="false" />
-              </folding>
+            <state line="621" column="0" selection-start="25026" selection-end="25026" vertical-scroll-proportion="0.23076923">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -54,7 +52,7 @@
       <file leaf-file-name="demo1.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/demo2/css/demo1.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1496" column="23" selection-start="32007" selection-end="32007" vertical-scroll-proportion="1.7545787">
+            <state line="1458" column="46" selection-start="31206" selection-end="31206" vertical-scroll-proportion="0.47069597">
               <folding />
             </state>
           </provider>
@@ -401,10 +399,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/demo2/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="621" column="0" selection-start="25026" selection-end="25026" vertical-scroll-proportion="-6.6153846">
-          <folding>
-            <element signature="tag#div#0;tag#section#7;tag#div#3;tag#body#0;tag#html#0" expanded="false" />
-          </folding>
+        <state line="621" column="0" selection-start="25026" selection-end="25026" vertical-scroll-proportion="0.23076923">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -417,7 +413,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/demo2/css/demo1.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1496" column="23" selection-start="32007" selection-end="32007" vertical-scroll-proportion="1.7545787">
+        <state line="1458" column="46" selection-start="31206" selection-end="31206" vertical-scroll-proportion="0.47069597">
           <folding />
         </state>
       </provider>

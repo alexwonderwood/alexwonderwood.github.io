@@ -1021,7 +1021,7 @@ and (min-width : 1920px) {
 	}
 
 	#story-header .glass {
-		top: 567% !important;
+		top: 570% !important;
 	}
 
 	#story-header .glass img {
@@ -1455,20 +1455,22 @@ and (min-width : 1920px) {
 	#story-foo .text81 {
 		margin: 2em 0 0 0 !important;
 	}
-
+    #vk_groups {
+        margin: -0.55em 0 0 24.2em !important;
+    }
 	#story-foo .arrowfoo {
-		margin: -2.5em 0 0 22em !important;
+        margin: -1.5em 0 0 16.5em !important;
 	}
 	#story-foo .arrowfoo img {
 		width: 100% !important;
 	}
     .img-groups .ph{
-        right: 11.9em !important;
-        margin: -4.55em 0 0 0 !important;
+        right: 5.9em !important;
+        margin: -2.55em 0 0 0 !important;
     }
     .img-groups .hn {
-        margin: -3em 0 0 46.9em !important;
-        left: 0em;
+        margin: -1em 0 0 30.9em !important;
+        left: 1.54em;
     }
     .img-groups .ph img{
         width: 100% !important;
@@ -1493,17 +1495,21 @@ and (min-width : 1920px) {
 	#story-foo .text85 {
 		margin: 2.5em 0 0 0;
 	}
-    #story-foo #footoppart {
-        font-size: 120%;
+    #story-foo #foobottom {
+        font-size: 128%;
     }
 	#story-foo #foomidlepart .column {
 		margin: 1em 0 0 0 !important;
 	}
 
 	#story-foo #foomidlepart .socialnet {
-		width: 60% !important;
-
+        width: 60% !important;
+        margin: 1em 0 1em -9em !important;
 	}
+    .footerslide8 {
+        margin: 0 0 12em !important;
+        top: -0.5em !important;
+    }
 	#story-foo #foobottompart .copyr {
 		margin: 1.8em 10em 0 0 !important;
 	}
