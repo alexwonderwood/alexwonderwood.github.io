@@ -1456,10 +1456,10 @@ and (min-width : 1920px) {
 		margin: 2em 0 0 0 !important;
 	}
     #vk_groups {
-        margin: -0.55em 0 0 24.2em !important;
+        margin: -0.27em 0 0 24.2em !important;
     }
 	#story-foo .arrowfoo {
-        margin: -1.5em 0 0 16.5em !important;
+        margin: -1em 0 0 14.5em !important;
 	}
 	#story-foo .arrowfoo img {
 		width: 100% !important;
@@ -1470,7 +1470,7 @@ and (min-width : 1920px) {
     }
     .img-groups .hn {
         margin: -1em 0 0 30.9em !important;
-        left: 1.54em;
+        left: 3.2em;
     }
     .img-groups .ph img{
         width: 100% !important;
@@ -1479,7 +1479,7 @@ and (min-width : 1920px) {
         width: 100% !important;
     }
     #story-foo #foomidlepart .fb-like {
-        margin: 0 0 0 -5em !important;
+        margin: 0 0 0 -4em !important;
     }
     #story-foo #foomidlepart .socialnet span.innersocial {
         margin: 0 !important;
@@ -1503,7 +1503,7 @@ and (min-width : 1920px) {
 	}
 
 	#story-foo #foomidlepart .socialnet {
-        width: 60% !important;
+        width: 64% !important;
         margin: 1em 0 1em -9em !important;
 	}
     .footerslide8 {
