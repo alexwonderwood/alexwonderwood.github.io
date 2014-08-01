@@ -460,19 +460,13 @@ and (min-width : 1024px) {
 	#story-foo #foomidlepart .text87 img{
 		width: 63%;
 	}
-	#story-foo #foomidlepart .item-text1 p {
-		font: 0.7em 'MyriadProBold' !important;
 
-	}
-	#story-foo #foomidlepart .item-text2 p {
-		font: italic 0.7em 'MyriadProRegular' !important;
-	}
+
 	#story-foo #foomidlepart .item-img img{
 		width: 70%;
 	}
 	#story-foo #foomidlepart .socialnet {
 		width: 50% !important;
-		font-size: 0.6em;
 		margin: 0  auto ;
 	}
     #story-foo #foomidlepart .fb-like {
@@ -484,9 +478,7 @@ and (min-width : 1024px) {
 	#story-foo #foobottompart .copyr{
 		margin: 1.3em 7em 0 0 !important;
 	}
-	#story-foo #foobottompart .copyr p {
-		font: 10px Arial !important;
-	}
+
 	#story-foo #foobottompart .fooinnerbottompart .text88 img {
 		width: 20%;
 
@@ -932,19 +924,13 @@ and (min-width : 1366px) {
     #story-foo #foomidlepart .text87 img{
         width: 63%;
     }
-    #story-foo #foomidlepart .item-text1 p {
-        font: 0.7em 'MyriadProBold' !important;
 
-    }
-    #story-foo #foomidlepart .item-text2 p {
-        font: italic 0.7em 'MyriadProRegular' !important;
-    }
+
     #story-foo #foomidlepart .item-img img{
         width: 70%;
     }
     #story-foo #foomidlepart .socialnet {
         width: 50% !important;
-        font-size: 0.6em;
         margin: 0  auto ;
     }
     #story-foo #foomidlepart .fb-like {
@@ -956,9 +942,7 @@ and (min-width : 1366px) {
     #story-foo #foobottompart .copyr{
         margin: 1.3em 7em 0 0 !important;
     }
-    #story-foo #foobottompart .copyr p {
-        font: 10px Arial !important;
-    }
+
     #story-foo #foobottompart .fooinnerbottompart .text88 img {
         width: 20%;
 
@@ -1254,13 +1238,12 @@ and (min-width : 1920px) {
     #zajavka4 input {
         background-size: 100% !important;
         width: 70% !important;
-        height: 6em !important;
+        height: 6.5em !important;
     }
     .footerslide4{
         bottom: 1.5em !important;
-        width: 20% !important;
-        margin: 0 auto !important;
-        z-index: 5 !important;
+        width: 15% !important;
+        margin: 0 0 0 3em !important;;
     }
 
 
@@ -1282,9 +1265,9 @@ and (min-width : 1920px) {
 	#story-five .text52 p {
 	}
 	#zajavka5 {
-		width: 70% !important;
-		margin: 9em 0 0 6em !important;
-		top: 7em !important;
+        width: 70% !important;
+        margin: 7em 0 0 6em !important;
+        top: 7em !important;
 	}
 	#zajavka5 input {
 		width: 70% !important;
@@ -1295,9 +1278,8 @@ and (min-width : 1920px) {
 
 	.footerslide5 {
 		bottom: 1.2em !important;
-		width: 15% !important;
-		margin: 0 auto !important;
-		z-index: 5 !important;
+        width: 15% !important;
+        margin: 0 0 0 3em !important;
 	}
 
     #story-six .story {
@@ -1315,18 +1297,11 @@ and (min-width : 1920px) {
 	#story-six .paket .item .item-titul{
 		margin: 4em 2em 0 0 !important;
 	}
-	#story-six .paket .item .item-titul p{
 
-	}
-	#story-six .paket .item .item-titul p span{
-
-	}
 	#story-six .paket .item .item-text1{
 		margin:0.5em 0 0 2em !important;
 	}
-	#story-six .paket .item .item-text1 p{
 
-	}
 	#story-six .paket .item .item-text2{
 
 		margin: -1.5em 0 0 2.8em !important;
@@ -1348,25 +1323,21 @@ and (min-width : 1920px) {
 		height: 8em !important;
 	}
 	.footerslide6{
-		width: 15% !important;
-		margin: 0 0 0 2em !important;
-		bottom: 2em !important;
+        bottom: 2em !important;
+        width: 15% !important;
+        margin: 0 0 0 3em !important;
 	}
 
 
 
     #story-seven .story {
 
-        font-size: 100%;
+        font-size: 150%;
     }
 	#story-seven .text72{
 		width: 110% !important;
 		margin: 1em 0 0 0 !important;
 	}
-	#story-seven .text72 p{
-
-	}
-
 	#story-seven .sliderfone .text73{
 		margin: 2em 0 0 0;
 	}
@@ -1376,34 +1347,25 @@ and (min-width : 1920px) {
 		width: 48%;
 	}
 	.simpslider {
-
-		margin: 1em 0 0 1em !important;
+        margin: 0.7em 0 0 0.6em !important;
 	}
     div#pre-slider {
-        bottom: 4.5em !important;
+        right: 1.5em !important;
     }
     #story-seven .sliderfone .bushfront {
-        right: 7em !important;
+        right: 5em !important;
+        bottom: -3.5em !important;
     }
 	#story-seven .sliderfone .bushback{
-		margin: 5em 0 0 0 !important;
+		margin: 3.5em 0 0 0 !important;
 	}
     #story-seven .sliderfone .lable-monitor {
-        right: 3.9em !important;
-        bottom: 11em !important;
+        right: 3.7em !important;
+        bottom: 9em !important;
     }
 
-	#slider-controls li{
-
-	}
-
-	#story-seven .sliderfone .bushfront{
-
-	}
-
-
 	#story-seven .totalbottomseven{
-		top:4em  !important;
+		top:0  !important;
 
 	}
 
@@ -1426,7 +1388,7 @@ and (min-width : 1920px) {
 		width: 70% !important;
 		position: absolute;
 		padding: 0;
-		margin: 6.5em 0 0 8em !important;
+		margin: 4.5em 0 0 8em !important;
 	}
 
 
@@ -1434,7 +1396,7 @@ and (min-width : 1920px) {
 		background: url("../images/slide7/button7.png") no-repeat scroll center top transparent;
 		background-size: 100%;
 		width: 70% !important;
-		height: 8em !important;
+		height: 7em !important;
 		border: none;
 		color: transparent;
 		cursor: pointer;
@@ -1442,11 +1404,10 @@ and (min-width : 1920px) {
 		position: relative;
 	}
 	.footerslide7{
-		bottom: 2.5em !important;
-		width: 15% !important;
-		margin: 0 0 0 7em !important;
-		z-index: 10;
-
+        bottom: 2.5em !important;
+        width: 15% !important;
+        margin: 0 0 0 3em !important;
+        z-index: 10;
 	}
 
 
@@ -1457,9 +1418,7 @@ and (min-width : 1920px) {
 	#story-foo .text81 {
 		margin: 2em 0 0 0 !important;
 	}
-	#story-foo .text82 p {
 
-	}
 	#story-foo .arrowfoo {
 		margin: -2.5em 0 0 22em !important;
 	}
@@ -1493,24 +1452,15 @@ and (min-width : 1920px) {
 		margin: 1em 0 0 !important;
 		width: 110% !important;
 	}
-	#story-foo .text84 p {
 
-	}
 	#story-foo .text85 {
 		margin: 2.5em 0 0 0;
 	}
-	#story-foo .text86 p {
 
-	}
 	#story-foo #foomidlepart .column {
 		margin: 1em 0 0 0 !important;
 	}
-	#story-foo #foomidlepart .item-text1 p {
 
-	}
-	#story-foo #foomidlepart .item-text2 p {
-
-	}
 	#story-foo #foomidlepart .socialnet {
 		width: 60% !important;
 
@@ -1518,9 +1468,7 @@ and (min-width : 1920px) {
 	#story-foo #foobottompart .copyr {
 		margin: 1.8em 10em 0 0 !important;
 	}
-	#story-foo #foobottompart .copyr p {
 
-	}
 
 }
 
