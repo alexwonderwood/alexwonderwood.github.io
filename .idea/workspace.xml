@@ -34,8 +34,10 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo2/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="0" selection-start="2566" selection-end="2596" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="621" column="0" selection-start="25026" selection-end="25026" vertical-scroll-proportion="-6.6153846">
+              <folding>
+                <element signature="tag#div#0;tag#section#7;tag#div#3;tag#body#0;tag#html#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -43,7 +45,7 @@
       <file leaf-file-name="form.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo2/captcha/form.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="15" selection-start="1647" selection-end="1664" vertical-scroll-proportion="0.0">
+            <state line="58" column="15" selection-start="1647" selection-end="1664" vertical-scroll-proportion="-10.846154">
               <folding />
             </state>
           </provider>
@@ -52,7 +54,7 @@
       <file leaf-file-name="demo1.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/demo2/css/demo1.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="944" column="0" selection-start="20810" selection-end="20810" vertical-scroll-proportion="-2.3058608">
+            <state line="769" column="23" selection-start="17172" selection-end="17172" vertical-scroll-proportion="0.8443223">
               <folding />
             </state>
           </provider>
@@ -385,20 +387,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo2/captcha/form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="15" selection-start="1647" selection-end="1664" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo2/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="0" selection-start="2566" selection-end="2596" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demo2/Parallax/js/parallax.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="357" column="62" selection-start="9426" selection-end="9426" vertical-scroll-proportion="0.0">
@@ -411,9 +399,25 @@
         <state line="184" column="33" selection-start="6570" selection-end="6570" vertical-scroll-proportion="0.28705442" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/demo2/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="621" column="0" selection-start="25026" selection-end="25026" vertical-scroll-proportion="-6.6153846">
+          <folding>
+            <element signature="tag#div#0;tag#section#7;tag#div#3;tag#body#0;tag#html#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo2/captcha/form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="15" selection-start="1647" selection-end="1664" vertical-scroll-proportion="-10.846154">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/demo2/css/demo1.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="944" column="0" selection-start="20810" selection-end="20810" vertical-scroll-proportion="-2.3058608">
+        <state line="769" column="23" selection-start="17172" selection-end="17172" vertical-scroll-proportion="0.8443223">
           <folding />
         </state>
       </provider>
