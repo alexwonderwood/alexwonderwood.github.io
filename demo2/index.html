@@ -24,10 +24,14 @@
 	<script type="text/javascript">
 		$(document).ready(function() {
 			$(document).on('click', '.modal_btn', function(){
-				$('#small-modal').arcticmodal();
-			});
+                $('#small-modal').arcticmodal();
+            });
+            $(document).on('click', '.modal_btn_2', function(){
+                $('#small-modal1').arcticmodal();
+            });
 		});
 	</script>
+    \
 	<script type="text/javascript" src="share42/share42.js"></script>
 	<script type="text/javascript" src="http://vk.com/js/api/openapi.js?115"></script>
 	<!--<script type="text/javascript">
@@ -112,6 +116,32 @@
 	</div>
 	<!-- // Формы в модальных окнах -->
 </div>
+
+<div style="display:none;">
+    <!-- Формы в модальных окнах -->
+    <div class="box-modal" id="small-modal1">
+        <div class="toppopup1"><img src="images/pop-up/top.png" alt="" /></div>
+        <div class="modal-close arcticmodal-close"></div>
+        <div class="modal-content-box">
+            <legend>ЗАКАЗАТЬ ОБРАТНЫЙ ЗВОНОК</legend>
+            <form action="" method="get" name="feedback_form_2">
+                <div class="input-prepend">
+                    <span class="add-on"><i class="icon-user">Ф.И.О. контактного лица:<span class="red"> *</span></i></span>
+                    <input class="input-medium focused" name="name" type="text" placeholder="">
+                </div>
+                <div class="input-prepend">
+                    <span class="add-on"><i class="icon-book">Телефон: <span class="red"> *</span></i></span>
+                    <input class="input-medium focused" name="tell" type="text" placeholder="">
+                </div>
+                <div class="lablemod1"><span class="red"> *</span> - Заполнить обязательно</div>
+                <input class="feedback btn btn-block btn-success" name="send" type="button" value="Отправить заявку">
+            </form>
+        </div>
+        <div class="bottompopup1"><img src="images/pop-up/bottom.png" alt="" /></div>
+    </div>
+    <!-- // Формы в модальных окнах -->
+</div>
+
 <div id="content">
 
 
@@ -128,7 +158,7 @@
 				<div class="phone">
 
 					<div class="bigphone">+7(495)665-07-08</div>
-					<div class="backcall"><span class="btn btn-block btn-large btn-success modal_btn">Заказать обратный звонок</span></div>
+					<div class="backcall"><span class="btn btn-block btn-large btn-success modal_btn_2">Заказать обратный звонок</span></div>
 
 				</div>
 			</div>
@@ -162,7 +192,7 @@
 </section>
 
 
-<section id="story-intel" anim-pause="1000">
+<section id="story-intel">
 	<img class="bg" src="images/slide2/bg2.png" anim-detached="true" width="100%" height="80%" />
 	<div class="story">
 		<div id="innerintel">
@@ -662,7 +692,7 @@
 					<div class="item-img">
 						<div id="call">
 							<form class="callone">
-								<span class="btn btn-block btn-large btn-success modal_btn"><input type="button" value="Сделать заявку" /></span>
+								<span class="btn btn-block btn-large btn-success modal_btn_2"><input type="button" value="Сделать заявку" /></span>
 							</form>
 						</div>
 					</div>

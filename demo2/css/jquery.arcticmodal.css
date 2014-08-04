@@ -76,6 +76,11 @@
 	height: 480px;
 	width: 886px;
 }
+#small-modal1 {
+    background-color: #cacaca;
+    height: 150px;
+    width: 886px;
+}
 #feedback-modal-box {
     width: 300px;
 }

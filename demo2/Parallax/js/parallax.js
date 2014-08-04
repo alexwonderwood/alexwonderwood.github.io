@@ -355,23 +355,33 @@ $(function(){
 			if( ( oData.iTop <= iScrTop ) && ( oData.iBottom >= ( iScrTop ) ) ){
                 if (i === 1){
                     $(function () {
-                        $("#story-header .parashut").fadeTo(2000,  0.4);
-
-                        /*$()
-                            .animate({ opacity: 1.0,
-                            width:"100%"}, 7000);*/
-                            // Then, make it semi-transparent
-
-
-                    }());
-                   $(function () {
-
-                        $("#story-header .glass img")
-                            .animate({ opacity: 1.0}, 9000); // Then, make it semi-transparent
-
-                    }());
+                        $("#story-header .parashut").animate({
+                            opacity: 1
+                        }, 2000);
+                        var opacity = 0;
+                        (function loop(){
+                            if(opacity == 1){opacity = 0;}
+                            else opacity = 1;
+                        $("#story-header .glass").animate({opacity: opacity},4000, loop); // Then, make it semi-transparent
+                        })();
+                    });
                 }
-
+                if (i === 2){
+                    $(function () {//
+                        $("#story-intel #imageleft2 img").animate({
+                            opacity: 1
+                        }, 2000);
+                        $("#story-intel #imageleftarrow2 img").animate({
+                            opacity: 1
+                        }, 2000);
+                        $("#story-intel #imageright2 img").animate({
+                            opacity: 1
+                        }, 2000);
+                        $("#story-intel #imagerightarrow2 img").animate({
+                            opacity: 1
+                        }, 2000);
+                    });
+                }
                 if (i === 3){
                     $(function() {
                         $('#story-bing .work .row').each(function(i){
