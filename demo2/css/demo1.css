@@ -2680,10 +2680,12 @@ strong{
 	position: relative;
 	width: 25%;
 	height: 24em;
+    opacity: 0;
 	/*animation: slide6 3s infinite;
 	-webkit-animation: slide6 3s infinite;
 	-moz-animation: slide6 3s infinite;*/
 }
+
 #story-six .paket .item .item-titul{
 	margin: 3em 2em 0 0;
 }
