@@ -1197,7 +1197,7 @@ and (min-width : 1920px) {
 	}
 	#zajavka2 input {
 		height: 7em !important;
-background-size: 100%;
+        background-size: 100% !important;
 	}
 	.footerslide2{
 		bottom: 1em !important;
@@ -1237,7 +1237,7 @@ background-size: 100%;
 	}
 	#zajavka3 input {
 		height: 7em !important;
-        background-size: 100%;
+        background-size: 100% !important;
 	}
 	.footerslide3{
 		bottom: 3em !important;
