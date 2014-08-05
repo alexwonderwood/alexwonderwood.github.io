@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="468a1d3b-d97c-461b-ab56-7129311c64fa" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo2/Parallax/js/parallax.js" afterPath="$PROJECT_DIR$/demo2/Parallax/js/parallax.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo2/css/demo1.css" afterPath="$PROJECT_DIR$/demo2/css/demo1.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo2/css/jquery.arcticmodal.css" afterPath="$PROJECT_DIR$/demo2/css/jquery.arcticmodal.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo2/feedback/index.php" afterPath="$PROJECT_DIR$/demo2/feedback/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo2/index.html" afterPath="$PROJECT_DIR$/demo2/index.html" />
     </list>
     <ignored path="parallax.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,29 +26,20 @@
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo2/feedback/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="95" column="22" selection-start="2422" selection-end="2422" vertical-scroll-proportion="-5.230769">
+            <state line="95" column="22" selection-start="2422" selection-end="2422" vertical-scroll-proportion="-0.65384614">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo2/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="694" column="92" selection-start="28267" selection-end="28267" vertical-scroll-proportion="0.298">
+            <state line="694" column="92" selection-start="28267" selection-end="28267" vertical-scroll-proportion="-0.65384614">
               <folding>
                 <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jquery.arcticmodal.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo2/css/jquery.arcticmodal.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="80" column="14" selection-start="1357" selection-end="1357" vertical-scroll-proportion="0.0">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -66,10 +53,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="demo1.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="demo1.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/demo2/css/demo1.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3305" column="14" selection-start="64971" selection-end="64971" vertical-scroll-proportion="0.0">
+            <state line="1493" column="16" selection-start="32283" selection-end="32283" vertical-scroll-proportion="-1.8956044">
               <folding />
             </state>
           </provider>
@@ -139,8 +126,8 @@
         <option value="$PROJECT_DIR$/demo2/Parallax/js/parallax.js" />
         <option value="$PROJECT_DIR$/demo2/feedback/index.php" />
         <option value="$PROJECT_DIR$/demo2/css/jquery.arcticmodal.css" />
-        <option value="$PROJECT_DIR$/demo2/css/demo1.css" />
         <option value="$PROJECT_DIR$/demo2/index.html" />
+        <option value="$PROJECT_DIR$/demo2/css/demo1.css" />
       </list>
     </option>
   </component>
@@ -305,8 +292,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="project.propVCSSupport.VCSs.Git" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -322,14 +309,14 @@
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
       <method />
     </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
-      <method />
-    </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
       <JSDebuggerConfigurationSettings>
         <option name="engineId" value="embedded" />
         <option name="fileUrl" />
       </JSDebuggerConfigurationSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <list size="0" />
@@ -369,7 +356,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26818183" sideWeight="0.6707589" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27272728" sideWeight="0.6707589" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924107" sideWeight="0.50053364" order="7" side_tool="true" content_ui="tabs" />
@@ -507,7 +494,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/demo2/feedback/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="95" column="22" selection-start="2422" selection-end="2422" vertical-scroll-proportion="-5.230769">
+        <state line="95" column="22" selection-start="2422" selection-end="2422" vertical-scroll-proportion="-0.65384614">
           <folding />
         </state>
       </provider>
@@ -521,32 +508,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/demo2/feedback/css/jquery.arcticmodal.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="21" selection-start="1276" selection-end="1276" vertical-scroll-proportion="0.41001856">
-          <folding />
-        </state>
+        <state line="76" column="21" selection-start="1276" selection-end="1276" vertical-scroll-proportion="0.41001856" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demo2/css/jquery.arcticmodal.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="14" selection-start="1357" selection-end="1357" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo2/css/demo1.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3305" column="14" selection-start="64971" selection-end="64971" vertical-scroll-proportion="0.0">
+        <state line="80" column="14" selection-start="1357" selection-end="1357" vertical-scroll-proportion="0.031539887">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demo2/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="694" column="92" selection-start="28267" selection-end="28267" vertical-scroll-proportion="0.298">
+        <state line="694" column="92" selection-start="28267" selection-end="28267" vertical-scroll-proportion="-0.65384614">
           <folding>
             <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo2/css/demo1.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1493" column="16" selection-start="32283" selection-end="32283" vertical-scroll-proportion="-1.8956044">
+          <folding />
         </state>
       </provider>
     </entry>
