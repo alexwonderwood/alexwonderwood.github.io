@@ -383,19 +383,28 @@ $(function(){
                     });
                 }
                 if (i === 3){
+                    (function loop(){
+                      $('#story-william .meroprijat .item-img').rotate3Di(36000, 70000,loop);
+                    })();
+
+
+
+                }
+                if (i === 4){
                     $(function() {
                         $('#story-bing .work .row').each(function(i){
                             $(this).delay((i++) * 500).fadeTo(1000, 1); })
 
                     });
                 }
-                if (i === 4){
+                if (i === 5){
                     $(function() {
                         $('#story-five .get .item').each(function(i){
                             $(this).delay((i++) * 500).fadeTo(1000, 1); })
 
                     });
                 }
+
 
 				if (i === 6 || i === 7) {
 					$('.simpslider').click();

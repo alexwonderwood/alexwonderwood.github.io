@@ -2293,9 +2293,9 @@ opacity: 0;
 }
 #story-william .meroprijat .item-img{
 	width: 70%;
-	animation:icon 3s infinite;
+	/*animation:icon 3s infinite;
 	-webkit-animation: icon 3s infinite;
-	-moz-animation: icon 3s infinite;
+	-moz-animation: icon 3s infinite;*/
 }
 
 #story-william .meroprijat .item-text{

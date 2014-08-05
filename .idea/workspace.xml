@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="468a1d3b-d97c-461b-ab56-7129311c64fa" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo2/Parallax/js/rotate3Di/base.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo2/Parallax/js/rotate3Di/rotate3Di.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo2/Parallax/js/parallax.js" afterPath="$PROJECT_DIR$/demo2/Parallax/js/parallax.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo2/css/demo1.css" afterPath="$PROJECT_DIR$/demo2/css/demo1.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo2/index.html" afterPath="$PROJECT_DIR$/demo2/index.html" />
     </list>
     <ignored path="parallax.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,10 +39,11 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo2/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="694" column="92" selection-start="28267" selection-end="28267" vertical-scroll-proportion="-0.65384614">
+            <state line="19" column="49" selection-start="799" selection-end="799" vertical-scroll-proportion="-2.6153846">
               <folding>
                 <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#section#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -46,7 +52,7 @@
       <file leaf-file-name="form.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo2/captcha/form.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="15" selection-start="1647" selection-end="1664" vertical-scroll-proportion="0.0">
+            <state line="58" column="15" selection-start="1647" selection-end="1664" vertical-scroll-proportion="-10.846154">
               <folding />
             </state>
           </provider>
@@ -55,7 +61,7 @@
       <file leaf-file-name="demo1.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/demo2/css/demo1.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1201" column="17" selection-start="26287" selection-end="26287" vertical-scroll-proportion="-0.8021978">
+            <state line="2379" column="5" selection-start="49121" selection-end="49143" vertical-scroll-proportion="-1.5402931">
               <folding />
             </state>
           </provider>
@@ -64,7 +70,7 @@
       <file leaf-file-name="parallax.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo2/Parallax/js/parallax.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="365" column="29" selection-start="9841" selection-end="9841" vertical-scroll-proportion="0.0">
+            <state line="384" column="16" selection-start="10586" selection-end="10586" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -74,15 +80,6 @@
         <entry file="file://$PROJECT_DIR$/demo2/Parallax/css/reset.css">
           <provider selected="true" editor-type-id="text-editor">
             <state line="74" column="94" selection-start="1065" selection-end="1065" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jquery.arcticmodal.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo2/feedback/js/jquery.arcticmodal.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="14" selection-start="232" selection-end="232" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -111,10 +108,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/css/reset.css" />
-        <option value="$PROJECT_DIR$/demo2/Parallax/js/simpslider-dev.js" />
-        <option value="$PROJECT_DIR$/demo2/Parallax/js/jquery.arcticmodal.js" />
-        <option value="$PROJECT_DIR$/demo2/Parallax/js/feedback.js" />
         <option value="$PROJECT_DIR$/demo2/feedback/js/feedback.js" />
         <option value="$PROJECT_DIR$/demo2/index.php" />
         <option value="$PROJECT_DIR$/demo2/feedback/test.php" />
@@ -122,11 +115,15 @@
         <option value="$PROJECT_DIR$/demo2/Parallax/css/reset.css" />
         <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/settings.php" />
         <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-1/settings.php" />
-        <option value="$PROJECT_DIR$/demo2/Parallax/js/parallax.js" />
         <option value="$PROJECT_DIR$/demo2/feedback/index.php" />
         <option value="$PROJECT_DIR$/demo2/css/jquery.arcticmodal.css" />
-        <option value="$PROJECT_DIR$/demo2/index.html" />
+        <option value="$PROJECT_DIR$/js/rotate3Di/jquery.rotate3di.js" />
+        <option value="$PROJECT_DIR$/js/rotate3Di/jquery.css.transform.js" />
         <option value="$PROJECT_DIR$/demo2/css/demo1.css" />
+        <option value="$PROJECT_DIR$/js/rotate3Di/base.js" />
+        <option value="$PROJECT_DIR$/js/rotate3Di/rotate3Di.js" />
+        <option value="$PROJECT_DIR$/demo2/index.html" />
+        <option value="$PROJECT_DIR$/demo2/Parallax/js/parallax.js" />
       </list>
     </option>
   </component>
@@ -206,20 +203,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="parallax" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="alexwonderwood.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="demo2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -238,7 +221,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="feedback" />
+              <option name="myItemId" value="Parallax" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -256,11 +239,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="feedback" />
+              <option name="myItemId" value="Parallax" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -278,7 +261,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="Parallax" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rotate3Di" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -298,6 +289,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\wamp\www\parallax1\css" />
       <recent name="D:\!!! Работа\parallax\demo2" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\www\alexwonderwood.github.io\demo2\Parallax\js" />
     </key>
   </component>
   <component name="RunManager">
@@ -431,16 +425,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/demo2/captcha/resources/tools/dictionary-import/importwords.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo2/share42/share42.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="661" selection-start="704" selection-end="704" vertical-scroll-proportion="0.019813519" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demo2/captcha/captcha.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="0" selection-start="223" selection-end="239" vertical-scroll-proportion="0.26153848" />
@@ -456,27 +440,6 @@
     <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-1/settings.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="187" column="46" selection-start="6684" selection-end="6684" vertical-scroll-proportion="0.38273922" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo2/Parallax/css/reset.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="94" selection-start="1065" selection-end="1065" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo2/Parallax/js/parallax.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="365" column="29" selection-start="9841" selection-end="9841" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo2/captcha/form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="15" selection-start="1647" selection-end="1664" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../PHP + AJAX скрипт отправки форм на E-mail/PHP + AJAX скрипт отправки форм на E-mail/feedback/index.php">
@@ -498,13 +461,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo2/feedback/js/jquery.arcticmodal.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="14" selection-start="232" selection-end="232" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demo2/feedback/css/jquery.arcticmodal.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="76" column="21" selection-start="1276" selection-end="1276" vertical-scroll-proportion="0.41001856" />
@@ -517,19 +473,66 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/demo2/captcha/form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="15" selection-start="1647" selection-end="1664" vertical-scroll-proportion="-10.846154">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo2/feedback/js/jquery.arcticmodal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="14" selection-start="232" selection-end="232" vertical-scroll-proportion="0.032319393">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo2/Parallax/css/reset.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="74" column="94" selection-start="1065" selection-end="1065" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo2/Parallax/js/rotate3Di/rotate3Di.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="143" column="11" selection-start="5324" selection-end="5324" vertical-scroll-proportion="4.1663685">
+          <folding>
+            <element signature="e#0#161#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo2/Parallax/js/rotate3Di/base.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="424" column="0" selection-start="16222" selection-end="16222" vertical-scroll-proportion="7.4065933">
+          <folding>
+            <marker date="1407228856654" expanded="false" signature="11214:11242" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo2/Parallax/js/parallax.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="384" column="16" selection-start="10586" selection-end="10586" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/demo2/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="694" column="92" selection-start="28267" selection-end="28267" vertical-scroll-proportion="-0.65384614">
+        <state line="19" column="49" selection-start="799" selection-end="799" vertical-scroll-proportion="-2.6153846">
           <folding>
             <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#section#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demo2/css/demo1.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1201" column="17" selection-start="26287" selection-end="26287" vertical-scroll-proportion="-0.8021978">
+        <state line="2379" column="5" selection-start="49121" selection-end="49143" vertical-scroll-proportion="-1.5402931">
           <folding />
         </state>
       </provider>
