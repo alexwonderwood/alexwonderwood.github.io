@@ -425,7 +425,7 @@ $(function(){
 
                         if($(window).width() > '1400')
                         // при загрузке устанавливаем параметры по умолчанию
-                        {VK.Widgets.Group("vk_groups", {mode: 0, width: "246", height: "305", color1: 'FFFFFF', color2: '2B587A', color3: '5B7FA6'}, 20003922);}
+                        {VK.Widgets.Group("vk_groups", {mode: 0, width: "246", height: "305", color1: 'FFFFFF', color2: '2B587A', color3: '5B7FA6'}, 24089507);}
 
                     window.onresize = function () {
                         //при изменении размеров окна сначала очищаем наш блок с комментариями
@@ -440,7 +440,7 @@ $(function(){
                         if($(window).width() <= '1400')
                         //заново инициализируем комментарии с новой шириной
                         //тут можно придумать зависимость ширины комментариев от ширины чего-нибудь и вставлять вместо 320 любую другую велечину
-                        {VK.Widgets.Group("vk_groups", {mode: 0, width: "170", height: "100", color1: 'FFFFFF', color2: '2B587A', color3: '5B7FA6'}, 20003922);}
+                        {VK.Widgets.Group("vk_groups", {mode: 0, width: "170", height: "100", color1: 'FFFFFF', color2: '2B587A', color3: '5B7FA6'}, 24089507);}
 
 
 
