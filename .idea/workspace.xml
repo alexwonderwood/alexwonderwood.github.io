@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="468a1d3b-d97c-461b-ab56-7129311c64fa" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo2/Parallax/js/parallax.js" afterPath="$PROJECT_DIR$/demo2/Parallax/js/parallax.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo2/index.html" afterPath="$PROJECT_DIR$/demo2/index.html" />
     </list>
     <ignored path="parallax.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,19 +31,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="parallax.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="parallax.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo2/Parallax/js/parallax.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="442" column="157" selection-start="13026" selection-end="13026" vertical-scroll-proportion="0.77838826">
+            <state line="442" column="157" selection-start="13026" selection-end="13026" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/demo2/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="92" selection-start="1009" selection-end="1009" vertical-scroll-proportion="408.30768">
+            <state line="621" column="64" selection-start="25899" selection-end="25899" vertical-scroll-proportion="0.5423077">
               <folding />
             </state>
           </provider>
@@ -73,12 +73,12 @@
         <option value="$PROJECT_DIR$/js/rotate3Di/jquery.css.transform.js" />
         <option value="$PROJECT_DIR$/js/rotate3Di/base.js" />
         <option value="$PROJECT_DIR$/js/rotate3Di/rotate3Di.js" />
-        <option value="$PROJECT_DIR$/demo2/index.html" />
         <option value="$PROJECT_DIR$/demo2/Parallax/js/jquery.transform.js" />
         <option value="$PROJECT_DIR$/demo2/css/demo1.css" />
         <option value="$PROJECT_DIR$/js/side-nav.js" />
         <option value="$PROJECT_DIR$/demo2/Parallax/js/side-nav.js" />
         <option value="$PROJECT_DIR$/demo2/Parallax/js/parallax.js" />
+        <option value="$PROJECT_DIR$/demo2/index.html" />
       </list>
     </option>
   </component>
@@ -275,7 +275,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924107" sideWeight="0.49573106" order="7" side_tool="false" content_ui="tabs" />
@@ -452,16 +452,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo2/index.html">
+    <entry file="file://$PROJECT_DIR$/demo2/Parallax/js/parallax.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="92" selection-start="1009" selection-end="1009" vertical-scroll-proportion="408.30768">
+        <state line="442" column="157" selection-start="13026" selection-end="13026" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo2/Parallax/js/parallax.js">
+    <entry file="file://$PROJECT_DIR$/demo2/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="442" column="157" selection-start="13026" selection-end="13026" vertical-scroll-proportion="0.77838826">
+        <state line="621" column="64" selection-start="25899" selection-end="25899" vertical-scroll-proportion="0.5423077">
           <folding />
         </state>
       </provider>
