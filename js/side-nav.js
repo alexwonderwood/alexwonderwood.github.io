@@ -16,6 +16,7 @@ $(function(){
 
 	$nav
 		.on( 'click', 'a', function(){
+            $( this ).addClass( "active" );
 			scrollToSection( $( this ).attr( 'href' ).substr( 1 ) );
 		} )
 		.on( 'mouseenter', 'li', function(){

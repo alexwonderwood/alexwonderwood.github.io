@@ -353,7 +353,7 @@ $(function(){
 			oData = $sec.data();
 
 			if( ( oData.iTop <= iScrTop ) && ( oData.iBottom >= ( iScrTop ) ) ){
-                if (i === 1){
+               /* if (i === 1){
                     $(function () {
                         $("#story-header .parashut").animate({
                             opacity: 1
@@ -387,7 +387,7 @@ $(function(){
                       $('#story-william .meroprijat .item-img').rotate3Di(36000, 70000,loop);
                     })();
 
-                }
+                }*/
                 if (i === 3){
                     $(function() {
                         $('#story-bing .work .row').each(function(i){
@@ -402,7 +402,7 @@ $(function(){
 
                     });
                 }
-                if (i === 5){
+                /*if (i === 5){
                     $(function() {
                         $('#story-six .paket .item').each(function(i){
                             $(this).delay((i++) * 1000).fadeTo(2000, 1); })
@@ -411,7 +411,7 @@ $(function(){
 
 
 
-            }
+            }*/
 
 
 				if (i === 6 || i === 7) {
