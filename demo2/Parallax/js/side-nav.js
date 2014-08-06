@@ -19,7 +19,7 @@ $(function(){
 
 	$nav
 		.on( 'click', 'a', function(){
-            $("#nav a").removeClass("active");
+            $("#nav a").removeAttr("class");
             $( this ).addClass( "active" );
 			scrollToSection( $( this ).attr( 'href' ).substr( 1 ) );
 		} )
